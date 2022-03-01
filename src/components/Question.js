@@ -11,7 +11,6 @@ export default function Question(props) {
     return (
         <div className="question-block">    
             <div className="question">
-                {/* <h3 className="question-title">{convertToCorrectText(props.questionValue)}</h3> */}
                 <h3 className="question-title">{createMarkup(props.questionValue)}</h3>
                 <Answers 
                     chosenAnswer={props.chosenAnswer}
